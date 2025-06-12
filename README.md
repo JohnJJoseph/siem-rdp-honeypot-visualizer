@@ -1,6 +1,5 @@
 # Azure Sentinel RDP Honeypot Project with Real-Time Attack Mapping
 
-![Azure Sentinel](your-image-link-here)
 
 ## 📌 Overview
 This project demonstrates how to set up a Windows VM in Microsoft Azure as an **RDP honeypot** to attract brute-force attacks, and how to monitor those attacks in **real-time using Microsoft Sentinel** on a world map.
@@ -79,28 +78,8 @@ FAILED_RDP_WITH_GEO_CL
 ## 🌍 Example Output
 > Live attacks will appear as bubbles on a global map in Sentinel.
 
-Add your screenshots here:
-```
-📸 screenshots/
-  ├─ vm-deployment.png
-  ├─ event-log.png
-  ├─ custom-log-table.png
-  └─ live-map.png
-```
+![Alt Text](screenshots/global-map.png)
 
----
-
-## 📁 Project Structure
-```
-azure-sentinel-rdp-honeypot/
-📋 PowerShell/
-└── extract_failed_rdp.ps1
-📸 screenshots/
-└── (Add images here)
-📄 docs/
-└── SetupGuide.md
-README.md
-```
 
 ---
 
