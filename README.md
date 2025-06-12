@@ -13,6 +13,64 @@ This project demonstrates how to set up a Windows VM in Microsoft Azure as an **
 - Visualize attacks on a dynamic map using Azure Sentinel.
 
 ---
+## 🛡️ Security Information and Event Management (SIEM)
+
+**Security Information and Event Management (SIEM)** is a cybersecurity solution that helps organizations detect, investigate, and respond to potential security threats before they disrupt business operations.
+
+SIEM platforms combine:
+- **Security Information Management (SIM)**: Log collection, storage, and analysis.
+- **Security Event Management (SEM)**: Real-time event correlation and alerting.
+
+📌 Originally coined by **Gartner in 2005**, SIEMs have evolved to include:
+- User and Entity Behavior Analytics (UEBA)
+- Advanced Security Analytics
+- AI and Machine Learning (ML) for anomaly detection
+- Automated threat detection and response
+
+Modern SIEMs, such as **Microsoft Sentinel**, are central to Security Operation Centers (SOCs) for:
+- Threat detection
+- Incident response
+- Compliance management
+
+---
+
+## 📊 Log Aggregation Process
+
+**Log aggregation** is the foundation of any SIEM system. It involves collecting and processing logs from various systems to prepare them for analysis.
+
+### Key Steps in Log Aggregation:
+
+1. **Installation of Agents**  
+   Deploy agents on endpoints to begin collecting log data.
+
+2. **Parsing**  
+   Extract and structure relevant data from raw logs.
+
+3. **Normalization**  
+   Convert diverse log formats into a standard, unified format.
+
+4. **Filtration**  
+   Remove redundant or irrelevant log data to reduce noise.
+
+5. **Categorization**  
+   Group logs by their source or event type for better organization.
+
+6. **Data Enrichment**  
+   Add additional context like geolocation, hostnames, or threat intel.
+
+7. **Indexing**  
+   Organize logs for fast and efficient searching and retrieval.
+
+8. **Storage**  
+   Securely store logs for analysis, historical tracking, and compliance.
+
+9. **Writing Rules**  
+   Define logic for log handling, routing, alerting, and automated response.
+
+> 💡 Effective log aggregation is essential for real-time threat detection and forensic analysis within any SIEM framework.
+
+---
+
 
 ## 🛠️ Setup Steps
 
@@ -97,8 +155,3 @@ FAILED_RDP_WITH_GEO_CL
 
 ---
 
-## ✅ To-Do
-- [ ] Upload PowerShell script
-- [ ] Add screenshots
-- [ ] Document API rate limits
-- [ ] Automate log shipping with cron/Task Scheduler
